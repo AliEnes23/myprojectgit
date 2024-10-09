@@ -1,5 +1,6 @@
-# hello-world
-Hello World repository for Git tutorials
-This is an example repository for the Git tutorial on https://www.w3schools.com
+# öğrendiklerim
 
-This repository is built step by step in the tutorialsss.
+Git bir dosya ağıdır.
+
+
+Nasıl çalışmasına gelince bir klasör oluşturulur (yerel kısım) DEVAM EDİYORUM
