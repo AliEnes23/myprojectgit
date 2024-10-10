@@ -44,3 +44,8 @@ MASTER BRANCH------------------------------->Feature branch----> FINAL PRODUCT
                                           FEATURE    FEATURE
 
 Yani tekrardan MASTER branch'e geçmek yerine Feature branch üzerinden devam edip onu temel almak.
+
+
+Bu branch ve diğer branch'teki her şey git komutları ile yüklendi. Sadece son güncellemeler (readme'ye) Github üzerinden yapılmakta.
+
+gitignore: normal github desktop app kullandığım da öğrendim; gitignore ile olan dosyaları umursama diğerlerini yükle demektir. Gitignore'lu dosyalar git tarafından umursanmaz iken diğer dosyalar git tarafından farkedilir.
