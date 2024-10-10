@@ -88,3 +88,8 @@ $ git push --all
 --------------------
 
 $ git merge production development
+
+
+Pull ise basitçe benim başka branch'ten başka branch'e işlem yapmam, entegre etme.
+
+burada yaptığım değişikliği local'de buradan local'e çekmiştim.
