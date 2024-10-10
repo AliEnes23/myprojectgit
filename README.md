@@ -22,4 +22,25 @@ ANA DAL --> YAN DAL -------------------------------------
 
   Ana proje ister kocaman ister küçük bir şey olsun, değiştirmek istediğimiz parçayı istediğimiz gibi değiştirmemize fırsat tanır ve bunu hızlı yapar. Ben index.html dosyasını değiştirmek istiyorsam sadece onun için branch açıp orada değişikliklerimi yapabilirim, ardından merge atıp ana projeme ekleyebilirim. Bu şekilde her projede her şey yeniden yüklenmez, değiştirilmez. Zaman kazanılır.
 
-  
+  KULLANDIĞIM KOMUTLAR
+
+-Git init; Proje oluşumunda kullandım.
+-Git add; Staging sürecine eklemek için kullandım.
+-Git commit; Yerel repo'ya kesin olduğum updateler için kullandım.
+-Git push; Remote repo'ya yerelde yaptığım değişiklikleri gönderirken kullandım.
+-Git remote; İstediğim remote repo ile yerel repomu bağdaştırırken kullandım.
+-Git checkout; Branchler arasında geçiş yapabilmek için kullandım.
+-Gİt branch; Yeni branch oluşturmak ve eski branchlerimi silmek için kullandım.
+-Git merge; Bir branch'te yaptığım değişiklikleri ana branch ile birleştirirken kullandım.
+-Git rebase; Kullanmadım ama öğrendiğime göre;
+
+MASTER BRANCH------------------------------->Feature branch----> FINAL PRODUCT
+                                             |           |
+                                             |           |
+                                             |           |
+                                             |           |
+                                             |           |
+                                             |           |
+                                          FEATURE    FEATURE
+
+Yani tekrardan MASTER branch'e geçmek yerine Feature branch üzerinden devam edip onu temel almak.
