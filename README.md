@@ -87,4 +87,4 @@ $ git push --all
 
 --------------------
 
-$ git merge B C
+$ git merge production development
