@@ -51,4 +51,40 @@ Bu branch ve diğer branch'teki her şey git komutları ile yüklendi. Sadece so
 gitignore: normal github desktop app kullandığım da öğrendim; gitignore ile olan dosyaları umursama diğerlerini yükle demektir. Gitignore'lu dosyalar git tarafından umursanmaz iken diğer dosyalar git tarafından farkedilir.
 
 
-MARKDOWN ÖĞRENDİM AMA BUNU NORMAL OLARAK YAZDIM MARKDOWN KULLANMADIM.
+MARKDOWN ÖĞRENDİM AMA BUNU NORMAL OLARAK YAZDIM MARKDOWN (extension) KULLANMADIM.
+
+
+--BRANCHLER--
+
+Feature kullandım sonra sildim local içerisinde.
+Development, master/main/production olaylarını öğrendim.
+
+Branchler biz (developerlar) ve müşterilere sunulan kısımların farkı gibi büyük işleri üstlenir
+
+**TÜRKÇE**
+
+Misal: Ben bir site yapıyorum
+
+Anasayfam var, değiştirmek istediğim kısmım anasayfamda slider kısmı
+
+slider'a erişir. Değişikliğimi yapar, Ardından Anasayfama bu güncellemeyi atarım.
+
+Ben bunu development'ta yaptım bir site yapıyorum neticede. Tabi genelde production'a direct push atmak kötüdür ilk development'a copy oluşturulur oradan her şey ayarlanır sonra merge yapılır. BÖylece müşteri fix'te sorun çıksa bile tanık olmaz son ürüne tanık olur.
+
+-------------------
+
+Ama sitem çoktan yayında olsaydı. Bunu production'da yapmam gerekebilirdi.
+
+**BRANCH'ÇE**
+
+Development branch ---> Anasayfa branch --> Feature branch
+
+Feature branch and Anasayfa branch merged.
+
+$ -d feature branch
+
+$ git push --all
+
+--------------------
+
+$ git merge B C
